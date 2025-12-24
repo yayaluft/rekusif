@@ -17,3 +17,22 @@ fungsi ini menggunakan perulangan atau looping. proses berjalan dari n hingga 1.
 ## Jawaban:
 1. fungsi tersebut akan terus berjalan secara berulang hingga mencapai base case dimana kondisi berhenti.
 2. sudah saya modifikasi.
+
+# PERCOBAAN 3
+1. Pada Percobaan3, sebutkan blok kode program manakah yang merupakan “base case” dan “recursion call”!
+2. Jabarkan trace fase ekspansi dan fase subtitusi algoritma perhitungan laba di atas jika diberikan nilai hitungLaba(100000,3)
+
+# Jawaban:
+1. base case berada di kode if (tahun == 0) untuk menghentikan pemanggilan rekursif. recursion call berada di kode return (1.11 * hitungLaba(saldo, tahun-1));
+2. 
+### fase ekspansi: 
+hitungLaba(100000,3)
+= 1.11 * hitungLaba(100000, 2)
+= 1.11 * (1.11 * hitungLaba(100000, 1))
+= 1.11 * (1.11 * (1.11 * hitungLaba(100000, 0)))
+
+### fase substitusi:
+= 1.11 * (1.11 * (1.11 * 100000))
+= 1.11 * (1.11 * 111000)
+= 1.11 * 123210
+= 136763.10000000003
