@@ -9,3 +9,11 @@
 fungsi memanggil dirinya sendiri dan memiliki base case if (n == 0). Proses berjalan dari n lalu n-1 dan seterusnya, setelah itu hasil di return.
 - faktorialIteratif :
 fungsi ini menggunakan perulangan atau looping. proses berjalan dari n hingga 1. 
+
+# PERCOBAAN 2
+1. Pada Percobaan2, terdapat pemanggilan fungsi rekursif hitungPangkat(bilangan, pangkat) pada fungsi main, kemudian dilakukan pemanggilan fungsi hitungPangkat() secara berulangkali. Jelaskan sampai kapan proses pemanggilan fungsi tersebut akan dijalankan!
+2. Tambahkan kode program untuk mencetak deret perhitungan pangkatnya. Contoh: hitungPangkat(2,5) dicetak 2x2x2x2x2x1 = 32
+
+## Jawaban:
+1. fungsi tersebut akan terus berjalan secara berulang hingga mencapai base case dimana kondisi berhenti.
+2. sudah saya modifikasi.
